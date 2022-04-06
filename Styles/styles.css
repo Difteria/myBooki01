@@ -3,7 +3,6 @@ html{
 }
 body{
     margin: 0;
-    font-family: 'Raleway', sans-serif;
     width: 100%;
     color: black;
 }
@@ -572,10 +571,127 @@ section{
         }
     
     }
-<<<<<<< HEAD
-    
-    
-=======
 
-    
->>>>>>> ajout de la partie tablette
+body{ 
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+header .menu_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    margin-bottom: 2%;
+}
+header img{
+    width: 120px;
+    height: 50px;
+    align-self: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30%;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.nav_01{
+    position: relative;
+    height: 100%;
+    padding: 0 5% 0 5%;
+}
+.nav_02{
+    position: relative;
+    height: 100%;
+    padding: 0 5% 0 5%;
+}
+.nav_01:hover a{
+    color: #0065FC;
+}
+.nav_02:hover a{
+    color: #0065FC;
+}
+.nav_01:hover a::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #0065FC;
+}
+.nav_02:hover a::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #0065FC;
+}
+header h1{
+    margin: 0 0 0.5% 2%;
+    font-size: 24px;
+}
+header p{
+    margin: 0 0 0 2%;
+    font-size: 14px;
+}
+form{
+    margin: 1% 0 2% 2%;
+}
+.search_filters{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 1% 0 1%;
+    border: 2px solid #c4c4c4;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.filter span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 35px;
+    width: 35px;
+    color: #0065FC;
+    background-color: #DEEBFF;  
+}
+.search_filters h2{
+    margin: 0 0 0 2%;
+    font-size: 18px;
+}
+.filter p{
+    font-weight: 700;
+    width: 100%;
+    margin: 0 1% 0 1%;
+}
+.dispo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2% 0 2% 2%;
+}
+.dispo p{
+    margin-left: 1%;
+}
