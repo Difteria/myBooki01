@@ -12,7 +12,7 @@
     <script src="https://kit.fontawesome.com/2354b8f8c3.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
+    <header> <!-- CSS en flex column tout le temps -->
         <div class="menu_bar"> <!-- CSS en flex row en desktop et flex column en mobile -->
             <img src="../Images/logo/Booki@3x.png" alt="logo booki">
             <nav> <!-- p::before en desktop, p::after en mobile -->
@@ -66,8 +66,23 @@
 
         <section>
     </main>
-    <footer>
-    
+    <footer> <!-- CSS en flex row en desktop et flex column en mobile -->
+        <div class="foot_element"> <!-- CSS en flex column tout le temps -->
+            <h1>A propos</h1>
+            <p>Fonctionnement du site</p> 
+            <p>Conditions générales de vente</p>
+            <p>Données et confidentialité</p>
+        </div>
+        <div class="foot_element"> <!-- CSS en flex column tout le temps -->
+            <h1>Nos hébergements</h1>
+            <p>Charte qualité</p>
+            <p>Soumettre votre hôtel</p>
+        </div>
+        <div class="foot_element"> <!-- CSS en flex column tout le temps -->
+            <h1>Assistance</h1>
+            <p>Centre d'aide</p>
+            <p>Nous contacter</p>
+        </div>
     </footer>
 </body>
 </html>
