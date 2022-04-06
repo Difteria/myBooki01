@@ -7,3 +7,74 @@ body{
     width: 100%;
     color: black;
 }
+
+
+/*Desktop*/
+.page{
+    display: flex;
+    flex-direction: column;
+    background-color:#F2F2F2;
+    border-radius: 15px;
+    font-family: 'Raleway',sans-serif;
+    width: 100%;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+.contenu{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+.choix{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius:15px;
+    box-shadow:10px 10px gainsboro;
+    width:90%;
+    height: 200px;
+    margin:10px;
+}
+.image{
+    width: 30%;
+    border-radius: 15px 0 0 15px;
+    object-fit: cover;
+    margin:5px;
+}
+.hotel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 2%;
+    width: 70%;
+}
+.fa-star{
+    color:#0065FC;
+}
+.icone:nth-child(5){
+    color:#c4c4c4;
+}
+.fa-line-chart{
+    margin: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    color:darkgrey;
+}
+/*mobile*/
+@media (max-width:768px) {
+    
+    .choix{
+        height:150px;
+       
+    }
+
+}   
