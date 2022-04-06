@@ -1,0 +1,9 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    color: black;
+}
