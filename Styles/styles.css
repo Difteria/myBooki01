@@ -210,12 +210,19 @@ section{
         height: 200px;
     }
 }
+/* Katherine commence ici */
 
+/*Media pour Destop*/
+@media (min-width: 992px) {       
 
-@media (min-width: 992px) {
+    html {
+        scroll-behavior: smooth;
+    }
 
     body {
         font-family: 'Raleway', sans-serif;
+        width: 100%;
+        color: black;
     }
     
     .partrois {
@@ -266,15 +273,15 @@ section{
         object-fit: cover;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
-        }
     }
-    
+
     .pardeux {
         display: flex;
         flex-direction: column ;
         width: 40%;
         justify-content: space-between;
         height: 100%;
+        gap: 30px;
     }
     
     .item {
@@ -317,7 +324,7 @@ section{
         font-size: 18px;
         font-family: 'Raleway';
         text-align: left;
-        margin-left: 10px;
+        margin-left: 5px;
     }
     
     #PNC, #NDG {
@@ -341,41 +348,50 @@ section{
     }
     
     
+
+    h1 {
+        margin-left: 15px;
+    }
+
+
+}
     
-    
-    @media screen and (min-width: 768px) and (max-width: 992px) {
+    /*Media pour Tablette */
+
+    @media screen and (min-width: 768px) and (max-width: 992px) { 
     
     
         .partrois {
             display: flex;
             flex-direction: row;
-            width: 100%;
+            width: 98%;
             height: 98%;
-            justify-content: space-between;
             margin: 1% 5% 1% 5%;
+            margin-bottom: 80px;
         }
     
         .mosaic {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            width: 98%;
         }
         
         h1 {
             font-family: 'Raleway';
+            margin-left: 45px;
         }
     
         .pardeux {
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
             width: 100%;
         }
     
         .P1 {
             width: 100%;
             object-fit: cover;
-            height: 395px;
+            height: 385px;
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
         }
@@ -401,8 +417,8 @@ section{
             border-bottom-right-radius: 10px;
             box-shadow: 1px 10px 5px 0px grey;
             margin-bottom: 30px;
-            width: 80%;
-            height: auto;
+            width: 98%;
+            height: 200px;
         }
     
         
@@ -410,24 +426,27 @@ section{
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
             box-shadow: 1px 10px 5px 0px grey;
-            height: 450px;
+            height: 430px;
             margin-bottom: 30px;
-            margin-right: 30px;
-            width: 70%;
+            margin-right: 20px;
+            width: 98%;
         }
     
         .item3 {
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
             box-shadow: 1px 10px 5px 0px grey;
-            height: 35%;
+            height: 200px;
+            width: 98%;
         }
     
         .item4 {
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
             box-shadow: 1px 10px 5px 0px grey;
-            height: 48%;
+            height: 200px;
+            width: 98%;
+            margin-bottom: 30px;
         }
     
         #PNC, #NDG {
@@ -436,7 +455,7 @@ section{
     
         .P3 {
             width: 100%;
-            height: 115px;
+            height: 150px;
             object-fit: cover;
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
@@ -445,21 +464,37 @@ section{
     }
     
     
-    
-    
-    
-    
+    /*Media pour Mobile */
+
     @media screen and (max-width: 768px) {
     
+        .activites{
+            margin: 1% 1% 1% 1%;
+        }
+
         .mosaic {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            margin: 0 1% 0 1%;
+            margin: 2% 2% 2% 2%;
+            width: 98%;
+            align-items: center;
+            gap: 30px;
         }
         
+        .partrois {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin: 5px;
+            align-items: center;
+            gap: 30px;
+            justify-content: space-between;
+        }
+
         h1 {
             font-family: 'Raleway';
+            margin-left: 10px;
         }
     
         .P1 {
@@ -492,53 +527,55 @@ section{
             text-align: left;
             margin-left: 10px;
         }
-    
-        
+
         .pardeux {
             display: flex;
             flex-direction: column;
             height: 100%;
-            justify-content: space-between;
             width: 100%;
         }
-    
-        
+
         
         .item {
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
             box-shadow: 1px 10px 5px 0px grey;
+            height: 100%;
             margin-bottom: 30px;
         }
     
         
         .item2 {
+            height: 100%;
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
             box-shadow: 1px 10px 5px 0px grey;
-            height: 100%;
-            margin-bottom: 30px;
-        }
+            width: 100%;
+        }   
     
         .item3 {
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
             box-shadow: 1px 10px 5px 0px grey;
-            height: 35%;
+            height: 100%;
         }
     
         .item4 {
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
             box-shadow: 1px 10px 5px 0px grey;
-            height: 48%;
+            height: 100%;
         }
     
         #PNC, #NDG {
             margin-left: 10px;
         }
-        
     
     }
+<<<<<<< HEAD
     
     
+=======
+
+    
+>>>>>>> ajout de la partie tablette
