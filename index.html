@@ -12,8 +12,47 @@
     <script src="https://kit.fontawesome.com/2354b8f8c3.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-    
+    <header> <!-- CSS en flex column tout le temps -->
+        <div class="menu_bar"> <!-- CSS en flex row en desktop et flex column en mobile -->
+            <img src="Images/logo/Booki@3x.png" alt="logo booki">
+            <nav> <!-- p::before en desktop, p::after en mobile -->
+                <div class="nav_01">
+                    <a href="#">Hébergements</a>
+                </div>
+                <div class="nav_02">
+                    <a href="#">Activités</a>
+                </div>
+            </nav>
+        </div>
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p>En plein centre ville ou en pleine nature</p>
+        <form>
+            <!-- Icone pin location - Barre de Recherche input text - Bouton rechercher (Icone loupe en mobile) -->
+            <span class="location"><i class="fa-solid fa-location-dot"></i></span>
+            <label>
+                <input type="search" name="city_search" placeholder="Marseille, France">
+            </label>
+            <i class="fa-solid fa-magnifying-glass" id="loupe"></i>
+            <input type="submit">
+        </form>
+        <div class="search_filters"> <!-- CSS en flex row wrap mobile (possible wrap desktop) -->
+            <h2>Filtres</h2>
+            <div class="filter">
+                <span><i class="fa-solid fa-money-bill-wave"></i></span><p>Economique</p>
+            </div>
+            <div class="filter">
+                <span><i class="fa-solid fa-child-reaching"></i></span><p>Familial</p>
+            </div>
+            <div class="filter">
+                <span><i class="fa-solid fa-heart"></i></span><p>Romantique</p>
+            </div>
+            <div class="filter">
+                <span><i class="fa-solid fa-dog"></i></span><p>Animaux autorisés</p>
+            </div>
+        </div>
+        <div class="dispo">
+            <span class="info"><i class="fa-solid fa-info"></i></span><p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
     </header>
     <main>
         <section>
@@ -62,8 +101,23 @@
             </div>
         </section>
     </main>
-    <footer>
-    
+    <footer> <!-- CSS en flex row en desktop et flex column en mobile -->
+        <div class="foot_element"> <!-- CSS en flex column tout le temps -->
+            <h1>A propos</h1>
+            <p>Fonctionnement du site</p> 
+            <p>Conditions générales de vente</p>
+            <p>Données et confidentialité</p>
+        </div>
+        <div class="foot_element"> <!-- CSS en flex column tout le temps -->
+            <h1>Nos hébergements</h1>
+            <p>Charte qualité</p>
+            <p>Soumettre votre hôtel</p>
+        </div>
+        <div class="foot_element"> <!-- CSS en flex column tout le temps -->
+            <h1>Assistance</h1>
+            <p>Centre d'aide</p>
+            <p>Nous contacter</p>
+        </div>
     </footer>
 </body>
 </html>
