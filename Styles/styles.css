@@ -76,7 +76,7 @@
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         box-shadow: 1px 10px 5px 0px grey;
-        height: 55%;
+        height: 48%;
     }
     
     .item3 {
@@ -364,6 +364,574 @@ body{
     margin: 0;
     width: 100%;
     color: black;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.p1, .p2{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+/*Desktop*/
+.page{
+    display: flex;
+    flex-direction: column;
+    background-color:#F2F2F2;
+    border-radius: 15px;
+    font-family: 'Raleway',sans-serif;
+    width: 30%;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+.contenu{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+.choix{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius:15px;
+    box-shadow:10px 10px gainsboro;
+    width:90%;
+    height: 200px;
+    margin:10px;
+}
+.image{
+    width: 30%;
+    border-radius: 15px 0 0 15px;
+    object-fit: cover;
+    margin:5px;
+    height: 189px;
+}
+.hotel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 2%;
+    width: 70%;
+}
+.fa-star{
+    color:#0065FC;
+}
+.icone2 i:nth-child(5){
+    color:#c4c4c4;
+}
+.fa-line-chart{
+    margin: 15px;
+}
+.Hebergements{
+    background-color:#F2F2F2;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 67%;
+    padding: 10px;
+}
+.carte{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    box-shadow: 7px 3px 12px 0px rgba(50, 50, 50, 0.29);
+}
+img{
+    width: 100%;
+    object-fit: fill;
+    border-radius: 10px 10px 0px 0px;
+    height: 125px;
+}
+.lesCartes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+.star i:nth-child(5), .star1 i:nth-child(4), .star1 i:nth-child(5){
+    color: #c4c4c4;
+}
+p{
+    color: grey;
+}
+.star, p, h4{
+    align-items: center;
+    width: 100%;
+}
+.fa-solid{
+    color: blue;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    color:darkgrey;
+}
+/*mobile*/
+@media (max-width:768px) {
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.page{
+    width: 100%;
+}
+.choix{
+    height:150px;
+}
+.image{
+    width: 30%;
+    border-radius: 15px 0 0 15px;
+    object-fit: cover;
+    margin:5px;
+    height: 140px;
+}  
+img{
+    width: 100%;
+    object-fit: fill;
+    border-radius: 10px 10px 0px 0px;
+    height: 190px;
+} 
+section{
+    display: flex;
+    flex-direction: column;
+}
+.p1, .p2{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+}
+@media (max-width: 768px){
+    .section{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .Hebergements{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .p1, .p2{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+    .lesCartes{
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .carte{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        padding: 5px;
+    }
+    img{
+        width: 100%;
+        object-fit: fill;
+        border-radius: 10px 10px 0px 0px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    img{
+        width: 100%;
+        object-fit: fill;
+        border-radius: 10px 10px 0px 0px;
+        height: 200px;
+    }
+}
+/* Katherine commence ici */
+
+/*Media pour Destop*/
+@media (min-width: 992px) {       
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: 'Raleway', sans-serif;
+        width: 100%;
+        color: black;
+    }
+    
+    .partrois {
+        display: flex;
+        flex-direction: row;
+        width: 98%;
+        margin: 5px;
+        align-items: center;
+        height: 400px;
+        gap: 30px;
+        justify-content: space-between;
+    }
+    
+    .mosaic {
+        display: flex;
+        flex-direction: row;
+        width: 98%;
+        margin: 5px;
+        align-items: center;
+        height: 400px;
+        gap: 30px;
+        justify-content: space-between;
+    }
+    
+    .titre {
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .P1 {
+        width: 100%;
+        object-fit: cover;
+        height: 28px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .P2 {
+        width: 100%;
+        height: 81px;
+        object-fit: cover;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .P3 {
+        width: 100%;
+        height: 115px;
+        object-fit: cover;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .pardeux {
+        display: flex;
+        flex-direction: column ;
+        width: 40%;
+        justify-content: space-between;
+        height: 100%;
+        gap: 30px;
+    }
+    
+    .item {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: 1px 10px 5px 0px grey;
+        height: 55%;
+    }
+    
+    .item3 {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: 1px 10px 5px 0px grey;
+        height: 35%;
+    }
+    
+    .item2 {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: 1px 10px 5px 0px grey;
+        height: 100%;
+    }
+    
+    .item4 {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: 1px 10px 5px 0px grey;
+        height: 48%;
+    }
+    
+    .item2 img{
+        height: 85%;
+    }
+    
+    .item img {
+        height: 70%;
+    }
+    
+    h2 {
+        font-size: 18px;
+        font-family: 'Raleway';
+        text-align: left;
+        margin-left: 5px;
+    }
+    
+    #PNC, #NDG {
+        margin-left: 10px;
+    }
+    
+    #PP {
+        font-size: 16px;
+    }
+    
+    #ND {
+        font-size: 16px;
+    }
+    
+    #PL {
+        font-size: 16px;
+    }
+    
+    #Ile {
+        font-size: 16px;
+    }
+    
+    
+
+    h1 {
+        margin-left: 15px;
+    }
+
+
+}
+    
+    /*Media pour Tablette */
+
+    @media screen and (min-width: 768px) and (max-width: 992px) { 
+    
+    
+        .partrois {
+            display: flex;
+            flex-direction: row;
+            width: 98%;
+            height: 98%;
+            margin: 1% 5% 1% 5%;
+            margin-bottom: 80px;
+        }
+    
+        .mosaic {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 98%;
+        }
+        
+        h1 {
+            font-family: 'Raleway';
+            margin-left: 45px;
+        }
+    
+        .pardeux {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+    
+        .P1 {
+            width: 100%;
+            object-fit: cover;
+            height: 385px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        
+        
+        h2 {
+            font-size: 18px;
+            font-family: 'Raleway';
+            text-align: left;
+            margin-left: 10px;
+        }
+    
+        .P2 {
+            width: 100%;
+            object-fit: cover;
+            height: 150px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        
+        .item {
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            box-shadow: 1px 10px 5px 0px grey;
+            margin-bottom: 30px;
+            width: 98%;
+            height: 200px;
+        }
+    
+        
+        .item2 {
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            box-shadow: 1px 10px 5px 0px grey;
+            height: 430px;
+            margin-bottom: 30px;
+            margin-right: 20px;
+            width: 98%;
+        }
+    
+        .item3 {
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            box-shadow: 1px 10px 5px 0px grey;
+            height: 200px;
+            width: 98%;
+        }
+    
+        .item4 {
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            box-shadow: 1px 10px 5px 0px grey;
+            height: 200px;
+            width: 98%;
+            margin-bottom: 30px;
+        }
+    
+        #PNC, #NDG {
+            margin-left: 10px;
+        }
+    
+        .P3 {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+    
+    }
+    
+    
+    /*Media pour Mobile */
+
+    @media screen and (max-width: 768px) {
+    
+        .activites{
+            margin: 1% 1% 1% 1%;
+        }
+
+        .mosaic {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 2% 2% 2% 2%;
+            width: 98%;
+            align-items: center;
+            gap: 30px;
+        }
+        
+        .partrois {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin: 5px;
+            align-items: center;
+            gap: 30px;
+            justify-content: space-between;
+        }
+
+        h1 {
+            font-family: 'Raleway';
+            margin-left: 10px;
+        }
+    
+        .P1 {
+            width: 100%;
+            object-fit: cover;
+            height: 150px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        
+        .P2 {
+            width: 100%;
+            object-fit: cover;
+            height: 150px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+    
+        .P3 {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        
+        h2 {
+            font-size: 18px;
+            font-family: 'Raleway';
+            text-align: left;
+            margin-left: 10px;
+        }
+
+        .pardeux {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 100%;
+        }
+
+        
+        .item {
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            box-shadow: 1px 10px 5px 0px grey;
+            height: 100%;
+            margin-bottom: 30px;
+        }
+    
+        
+        .item2 {
+            height: 100%;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            box-shadow: 1px 10px 5px 0px grey;
+            width: 100%;
+        }   
+    
+        .item3 {
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            box-shadow: 1px 10px 5px 0px grey;
+            height: 100%;
+        }
+    
+        .item4 {
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            box-shadow: 1px 10px 5px 0px grey;
+            height: 100%;
+        }
+    
+        #PNC, #NDG {
+            margin-left: 10px;
+        }
+    
+    }
+
+body{ 
     font-family: 'Raleway', sans-serif;
 }
 
