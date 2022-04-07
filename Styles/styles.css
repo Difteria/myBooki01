@@ -8,6 +8,7 @@ body{
     color: black;
 }
 .section{
+<<<<<<< HEAD
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -80,6 +81,18 @@ body{
     justify-content: space-around;
     width: 67%;
     padding: 10px;
+=======
+    background-color: #dddddd;
+}
+.Hebergements{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+}
+h2{
+    margin: 20px;
+>>>>>>> 465c795225db50f55c2e577c5375f00a5936e53e
 }
 .carte{
     background-color: white;
@@ -88,14 +101,25 @@ body{
     border-radius: 20px;
     width: 100%;
     height: 100%;
+<<<<<<< HEAD
     padding: 5px;
     box-shadow: 7px 3px 12px 0px rgba(50, 50, 50, 0.29);
+=======
+    justify-content: space-around;
+}
+.card{
+    padding: 5px;
+>>>>>>> 465c795225db50f55c2e577c5375f00a5936e53e
 }
 img{
     width: 100%;
     object-fit: fill;
     border-radius: 10px 10px 0px 0px;
+<<<<<<< HEAD
     height: 125px;
+=======
+    height: 300px;
+>>>>>>> 465c795225db50f55c2e577c5375f00a5936e53e
 }
 .lesCartes{
     display: flex;
@@ -103,6 +127,11 @@ img{
     justify-content: space-around;
     gap: 20px;
     border-radius: 20px 20px 0px 0px;
+<<<<<<< HEAD
+=======
+    align-self: center;
+    width: 96%;
+>>>>>>> 465c795225db50f55c2e577c5375f00a5936e53e
 }
 .star i:nth-child(5), .star1 i:nth-child(4), .star1 i:nth-child(5){
     color: #c4c4c4;
@@ -110,9 +139,18 @@ img{
 p{
     color: grey;
 }
+<<<<<<< HEAD
 .star, p, h4{
     align-items: center;
     width: 100%;
+=======
+.star, .star1, p, h4{
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 20px 10px;
+    width: 100%;
+    height: 5px;
+>>>>>>> 465c795225db50f55c2e577c5375f00a5936e53e
 }
 .fa-solid{
     color: blue;
@@ -121,6 +159,7 @@ a{
     text-decoration: none;
     color: black;
 }
+<<<<<<< HEAD
 p{
     color:darkgrey;
 }
@@ -146,10 +185,60 @@ p{
     margin:5px;
     height: 140px;
 }  
+=======
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.p1, .p2{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+@media (max-width: 768px){
+.Hebergements{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+}
+.p1, .p2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.lesCartes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+.carte{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
 img{
     width: 100%;
     object-fit: fill;
     border-radius: 10px 10px 0px 0px;
+    height: 300px;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+>>>>>>> 465c795225db50f55c2e577c5375f00a5936e53e
+img{
+    width: 100%;
+    object-fit: fill;
+    border-radius: 10px 10px 0px 0px;
+<<<<<<< HEAD
     height: 190px;
 } 
 section{
@@ -209,4 +298,16 @@ section{
         border-radius: 10px 10px 0px 0px;
         height: 200px;
     }
+=======
+    height: 300px;
+}
+.lesCartes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    border-radius: 20px 20px 0px 0px;
+    
+}
+>>>>>>> 465c795225db50f55c2e577c5375f00a5936e53e
 }
