@@ -108,7 +108,7 @@
         height: 70%;
     }
     
-    h2 {
+    .activites h2 {
         font-size: 18px;
         font-family: 'Raleway';
         text-align: left;
@@ -135,7 +135,7 @@
         font-size: 16px;
     }
 
-    h1 {
+    .activites h1 {
         margin-left: 15px;
     }
 
@@ -163,7 +163,7 @@
             width: 98%;
         }
         
-        h1 {
+        .activites h1 {
             font-family: 'Raleway';
             margin-left: 45px;
         }
@@ -183,7 +183,7 @@
         }
         
         
-        h2 {
+        .activites h2 {
             font-size: 18px;
             font-family: 'Raleway';
             text-align: left;
@@ -278,7 +278,7 @@
             justify-content: space-between;
         }
 
-        h1 {
+        .activites h1 {
             font-family: 'Raleway';
             margin-left: 10px;
         }
@@ -307,7 +307,7 @@
             border-top-right-radius: 10px;
         }
         
-        h2 {
+        .activites h2 {
             font-size: 18px;
             font-family: 'Raleway';
             text-align: left;
@@ -465,7 +465,7 @@ img{
 .star i:nth-child(5), .star1 i:nth-child(4), .star1 i:nth-child(5){
     color: #c4c4c4;
 }
-p{
+.carte p{
     color: grey;
 }
 .star, p, h4{
@@ -479,8 +479,11 @@ a{
     text-decoration: none;
     color: black;
 }
-p{
+.contenu p{
     color:darkgrey;
+}
+.carte p{
+    color: darkgrey;
 }
 /*mobile*/
 @media (max-width:768px) {
@@ -678,7 +681,7 @@ section{
         height: 70%;
     }
     
-    h2 {
+    .activites h2 {
         font-size: 18px;
         font-family: 'Raleway';
         text-align: left;
@@ -707,7 +710,7 @@ section{
     
     
 
-    h1 {
+    .activites h1 {
         margin-left: 15px;
     }
 
@@ -735,7 +738,7 @@ section{
             width: 98%;
         }
         
-        h1 {
+        .activites h1 {
             font-family: 'Raleway';
             margin-left: 45px;
         }
@@ -755,7 +758,7 @@ section{
         }
         
         
-        h2 {
+        .activites h2 {
             font-size: 18px;
             font-family: 'Raleway';
             text-align: left;
@@ -850,7 +853,7 @@ section{
             justify-content: space-between;
         }
 
-        h1 {
+        .activites h1 {
             font-family: 'Raleway';
             margin-left: 10px;
         }
@@ -879,7 +882,7 @@ section{
             border-top-right-radius: 10px;
         }
         
-        h2 {
+        .activites h2 {
             font-size: 18px;
             font-family: 'Raleway';
             text-align: left;
@@ -1113,7 +1116,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 5% 2% 0 2%;
+    margin: 5% 0 0 0;
     background-color: #f2f2f2;
 }
 footer h1{
